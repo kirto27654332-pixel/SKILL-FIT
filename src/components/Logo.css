@@ -1,0 +1,25 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.02);
+}
+
+.logo__img {
+  height: 3rem;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 12px rgba(var(--accent-rgb), 0.25));
+}
+
+.logo--lg .logo__img {
+  height: 4rem;
+}
+
+.logo--sm .logo__img {
+  height: 2.5rem;
+}
